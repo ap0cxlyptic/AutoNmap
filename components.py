@@ -65,7 +65,7 @@ def xyz():
         print("I am a NASA certified HTML Hacker !!")
         print("Follow me on GitHub for the HTML :D ")
     else:
-        print("Wrong Choice Bruh !! Are you dumb stoopid or dumd ??? ")
+        print("Wrong Choice Bruh !! Are you dumb stoopid or dumb ??? ")
 #function scan
 def scan(a):
     os.system(a)

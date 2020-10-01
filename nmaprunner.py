@@ -4,6 +4,5 @@ os.system("clear")
 def main():
     banner()    #printing the banner
     xyz()       #base function
-    print("Completed !!!")
 #running the main function  
 main()
