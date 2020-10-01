@@ -19,7 +19,7 @@ def xyz():
     print("4. Scan all ports of an IP Address / Domain  (Time Consuming) ")
     print("5. Aggressive Scan")
     print("6. TCP SYN and UDP scan for all ports")
-    print("20. About Developer ")
+    print("7. About Developer ")
     print()
     c=int(input("Enter The Number : "))
     if(c==1):                                                               #single ip or domain scan
@@ -60,10 +60,12 @@ def xyz():
         print("Running Scan . . . . .")
         x="sudo nmap -sS -sU -Pn -p 1-65535 "+q
         scan(x)
-    if(c==20):                                                              #about developer
+    if(c==7):                                                              #about developer
         print("Hello it's me ap0cxlypic ! ")
         print("I am a NASA certified HTML Hacker !!")
         print("Follow me on GitHub for the HTML :D ")
+    else:
+        print("Wrong Choice Bruh !! Are you dumb stoopid or dumd ??? ")
 #function scan
 def scan(a):
     os.system(a)
